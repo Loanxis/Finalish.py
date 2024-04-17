@@ -1,0 +1,7 @@
+import random
+num = int(input('Adivinhe o número que estou pensando!'))
+pc = random.randint(0, 5)
+if num == pc:
+    print(f'Você acertou, eu pensei {pc}')
+else:
+    print(f'Você errou, eu pensei {pc}')
