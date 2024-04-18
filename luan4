@@ -1,0 +1,8 @@
+viagem = float(input('Qual a distancia da viagem?'))
+valor =  0.50 * viagem
+valor2 = 0.45 * viagem
+if viagem <= 200:
+    print(f'O valor fica R${valor}')
+else:
+    print(f'O valor fica R${valor2}')
+
