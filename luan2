@@ -1,0 +1,6 @@
+vel = float(input('A quantos Km/h você passou pelo radar?'))
+multa = (vel - 80)*7
+if vel <= 80:
+    print(f'Tá suave, você passou a {vel}km/h')
+else:
+    print(f'Você recebeu uma multa no valor de R${multa} por ter excedido o limite de velocidade')
